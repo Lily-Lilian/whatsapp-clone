@@ -2,7 +2,10 @@ import './App.css';
 
 function App() {
   return (
-    <div>App</div>
+   <>
+   <aside className="messages-list"></aside>
+   <section className="messages-view"></section>
+   </>
   );
 }
 
