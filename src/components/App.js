@@ -1,9 +1,10 @@
 import './App.css';
+import MessagesList from "./messages-list"
 
 function App() {
   return (
    <>
-   <aside className="messages-list"></aside>
+   <MessagesList/>
    <section className="messages-view"></section>
    </>
   );

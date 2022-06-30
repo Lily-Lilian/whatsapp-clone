@@ -1,11 +1,11 @@
 :root{
-  --aside-section-width: 260px;
+  --aside-section-width: 360px;
   --surface-color-1: #000000;
   --surface-color-2: #46d366;
-  --background-color-1: #ffffff;
+  --background-color-1: #f0f2f5;
   --background-color-2: #999999;
   --surface-color: var(--surface-color-1);
-  --background-color: var(--background-color)
+  --background-color: var(--background-color-1)
 }
 *{
   margin: 0;

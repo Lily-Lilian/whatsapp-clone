@@ -10,4 +10,5 @@
 }
 .messages-view,.messages-list{
     display: inline-block;
+    vertical-align: top;
 }
