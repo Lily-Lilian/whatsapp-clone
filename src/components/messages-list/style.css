@@ -1,0 +1,49 @@
+.messages-list{
+    grid:0rem;
+}
+.dp {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.users{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    height: 68px;
+    overflow: hidden;
+    background-color: var(--background-color);
+    
+}
+.image{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 10px 16px; */
+    /* height: 68px; */
+    overflow: hidden;
+    list-style: none;
+    background-color: var(--background-color);
+    
+}
+.image > img{
+    margin-right: 12px;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+}
+small {
+    font-weight: lighter;
+    opacity: 0.5;
+}
+span {
+    opacity: 0.6;
+    font-size: small;
+}
+hr {
+    margin: 0 12px;
+}
